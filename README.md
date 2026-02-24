@@ -1,14 +1,14 @@
-# Text Transmission via ADALM-PLUTO SDR 📡
+# Text Transmission via ADALM-PLUTO SDR 
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-blue.svg)
 ![SDR](https://img.shields.io/badge/Hardware-ADALM--PLUTO-orange.svg)
 
-## 📖 Project Overview
+## Project Overview
 This repository contains the MATLAB implementation of a complete **Software Defined Radio (SDR) digital communication link** using two **ADALM-PLUTO** devices. The system allows users to input a text message via the terminal, encode it, transmit it over the air, and successfully decode it at the receiver. 
 
 The project evaluates the system's performance across different physical environments and distances, analyzing the effects of Free-Space Path Loss (FSPL) and AWGN on the signal constellation.
 
-## ⚙️ System Architecture & Key Features
+## System Architecture & Key Features
 
 The communication chain is built from scratch in MATLAB and includes the following Digital Signal Processing (DSP) blocks:
 
@@ -24,17 +24,17 @@ The communication chain is built from scratch in MATLAB and includes the followi
 * **Frame & Phase Synchronization:** Cross-correlation between the received signal and the known Header is performed to find the exact frame start. The complex angle of the correlation peak is used to correct the static phase offset ($\phi_{err}$) caused by propagation delay and PLL differences.
 * **Automatic Gain Control (AGC):** Dynamically adjusts the receiver gain to prevent clipping.
 
-## 📊 Experimental Results & Environment Testing
+## Experimental Results & Environment Testing
 The system was tested in various indoor and outdoor scenarios to observe electromagnetic propagation effects:
 - **Constellation Dispersion:** Demonstrated how increasing the Tx-Rx distance degrades the SNR, turning the ideal BPSK points into dispersed AWGN "clouds".
 - **Phase Rotation:** Analyzed the phase shift introduced by the physical distance (fractions of wavelength $\lambda$) and successfully compensated it in software.
 
-## 🚀 How to Run
+## How to Run
 1. Connect two ADALM-PLUTO devices to your PC (or two different PCs).
 2. Ensure the Communications Toolbox and the Communications Toolbox Support Package for ADALM-PLUTO Radio are installed in MATLAB.
 3. Run the transmitter script `Tx.m` type your message in the terminal, and press Enter to transmit.
 4. Run the receiver script `Rx.m`, and read the message!
 
-## 📄 Documentation
+## Documentation
 For a deep dive into the theoretical analysis, Gardner TED S-Curve, and constellation plots, please refer to the project presentation:
 - [Download Project Presentation (PDF)](Presentazione_SdC.pdf)
