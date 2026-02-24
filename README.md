@@ -1,2 +1,2 @@
 # TxRx_Testuale
-Trasmissione ricezione di un messaggio testuale in diversi ambienti con o senza codifica
+Trasmissione e ricezione di un messaggio testuale inserito da terminale tramite due SDR-Pluto con codifica in diversi ambienti. 
