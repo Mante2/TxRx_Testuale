@@ -1,6 +1,6 @@
 # Text Transmission via ADALM-PLUTO SDR 📡
 
-![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-blue.svg)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-blue.svg)
 ![SDR](https://img.shields.io/badge/Hardware-ADALM--PLUTO-orange.svg)
 
 ## 📖 Project Overview
@@ -32,8 +32,8 @@ The system was tested in various indoor and outdoor scenarios to observe electro
 ## 🚀 How to Run
 1. Connect two ADALM-PLUTO devices to your PC (or two different PCs).
 2. Ensure the Communications Toolbox and the Communications Toolbox Support Package for ADALM-PLUTO Radio are installed in MATLAB.
-3. Run the receiver script `Rx.m` to start listening.
-4. Run the transmitter script `Tx.m`, type your message in the terminal, and press Enter to transmit.
+3. Run the transmitter script `Tx.m` type your message in the terminal, and press Enter to transmit.
+4. Run the receiver script `Rx.m`, and read the message!
 
 ## 📄 Documentation
 For a deep dive into the theoretical analysis, Gardner TED S-Curve, and constellation plots, please refer to the project presentation:
