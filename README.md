@@ -36,5 +36,6 @@ The system was tested in various indoor and outdoor scenarios to observe electro
 4. Run the receiver script `Rx.m`, and read the message!
 
 ## Documentation
-For a deep dive into the theoretical analysis, Gardner TED S-Curve, and constellation plots, please refer to the project presentation:
+For a deep dive into the theoretical analysis, Gardner TED S-Curve, and constellation plots, please refer to the project presentation and relation (they're in italian!):
 - [Download Project Presentation (PDF)](Presentazione_SdC.pdf)
+- [Download Project Relation (PDF)](Presentazione_SdC.pdf)
